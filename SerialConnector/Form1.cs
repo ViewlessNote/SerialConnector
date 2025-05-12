@@ -34,7 +34,7 @@ namespace SerialConnector
                 serialPort1.PortName = Serial_Connect_Box.Text;
                 serialPort1.Open();
                 Connect_Disconnect_btn.Text = "Disconnect";
-                //Hir den Thread Starten der Lesen soll; 
+                //Hir den Thread Starten der Lesen soll lel; 
             }
             else {                 
                 serialPort1.Close();
